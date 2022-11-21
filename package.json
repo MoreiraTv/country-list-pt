@@ -1,0 +1,28 @@
+{
+  "name": "country-list-pt",
+  "version": "1.0.0",
+  "description": "Maps ISO 3166-1-alpha-2 codes to Portugues country names and vice versa.",
+  "main": "country-list-pt.js",
+  "files": [
+    "data.json"
+  ],
+  "devDependencies": {
+    "standard": "^13.1.0",
+    "tap": "^14.6.1"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "tap test/*.js --100"
+  },
+  "keywords": [
+    "country",
+    "countries",
+    "Brasil",
+    "Portugues",
+    "ISO 3166-1-alpha-2",
+    "ISO 3166-1"
+  ],
+  "author": "Matheus Moreira (MoreiraTv)",
+  "license": "MIT",
+  "homepage": "https://github.com/MoreiraTv/country-list-pt"
+}
